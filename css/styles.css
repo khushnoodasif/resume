@@ -50,6 +50,34 @@
   }
 }
 
+    .tex sub, .latex sub, .latex sup {
+      text-transform: uppercase;
+    }
+
+    .tex sub, .latex sub {
+      vertical-align: -0.5ex;
+      margin-left: -0.1667em;
+      margin-right: -0.125em;
+    }
+
+    .tex, .latex, .tex sub, .latex sub {
+      font-size: 0.5em;
+    }
+
+    .latex sup {
+      font-size: 0.5em;
+      vertical-align: 0.15em;
+      margin-left: -0.36em;
+      margin-right: -0.15em;
+    }
+ul {  
+    list-style: none; 
+    width: auto; 
+    text-indent: -0px; /* key property */
+    margin-left: 0px; /* key property */
+    
+}
+li { margin-bottom: 5px; }
 body {
   margin: 0;
   font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
