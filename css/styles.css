@@ -3897,6 +3897,10 @@ textarea.form-control-lg {
   list-style: none;
 }
 
+.center {
+ text-align: center;
+}
+
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
